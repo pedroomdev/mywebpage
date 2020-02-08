@@ -6,8 +6,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "jquery": "^3.2.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-ga": "^2.3.5",
     "react-scripts": "3.3.1"
   },
   "scripts": {
@@ -16,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "aws s3 sync build/",
-    "build-and-deploy-all": "scripts/deploy"
+    "build-and-deploy-all": "./scripts/deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
