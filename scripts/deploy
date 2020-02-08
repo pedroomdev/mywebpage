@@ -1,0 +1,5 @@
+#!/bin/bash
+
+yarn build
+yarn deploy -- s3://www.pedroomdev.com
+yarn deploy -- s3://pedroomdev.com
