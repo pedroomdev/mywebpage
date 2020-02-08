@@ -12,6 +12,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+### `yarn deploy -- <s3-bucket>`
+
+It will sync whatever content you have on build directory to the s3 bucket pass in the arguments.
+
+### `yarn build-and-deploy-all`
+
+It runs yarn build and also runs yarn deploy for both the of the s3 buckets I'm currently using for hosting the static website.
+
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
